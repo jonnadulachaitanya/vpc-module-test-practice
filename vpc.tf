@@ -3,4 +3,5 @@ module "vpc" {
     project_name = var.project_name
     environment = var.environment
     vpc_cidr_block = var.vpc_cidr_block
+    is_peering_required = true
 }

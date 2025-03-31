@@ -30,3 +30,11 @@ output "az_info" {
 #           + "use1-az5",
 #         ]
 #     }
+
+output "default_vpc_info" {
+    value = module.vpc.default_vpc_info
+}
+
+output "default_route_tablle_info" {
+    value = module.vpc.default_route_tablle_info
+}
